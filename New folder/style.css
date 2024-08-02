@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family:'DWPoppins';
+    src: url('fonts/Poppins-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header area */
+.header-area{
+    background: transparent !important ;
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    width: 80%;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 20px;
+}
+
+/* Hero Area */
+.hero-area{
+    background: url('cover.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero-containt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+
+}
+.hero-containt h1{
+    color: #fff;
+    margin: 20px;
+}
+.hero-containt h1 span{
+    color: aqua;
+}
+.hero-containt button{
+    color: #070707;
+    background: #f0eeee;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: .4s;
+
+}
+.hero-containt button:hover{
+   border-radius: 20px;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    color: #fff;
+    font-size: 25px;
+}
+
+/* Service Are */
+.service-area{
+    background: #fff;
+    padding: 100px 0;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:DWPoppins;
+}
+.section-title p{
+    letter-spacing: 4px;
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.servie-item{
+    width: 23.5%;
+}
+.service-img{
+    width: 60px;
+    height: 30px;
+}
+.team-area{
+    background: linear-gradient(45deg,#93b80f,#cfdd09);
+    padding: 100px 0;
+}
+.team-member{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    
+}
+.member{
+    width: 23.5%;
+}
+.member-photo{
+    position: relative;
+    overflow: hidden;
+}
+.member-photo img{
+    transition: .4s;
+}
+.member-photo:hover img{
+    transform:  scale(1.1);
+}
+.social-icons{
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 35px;
+    height: 100%;
+    background: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.social-icons ul{
+    list-style: none;
+}
+.social-icons ul li a{
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+}
+.member:hover .social-icons{
+    left: 0;
+}
+
+/*contact-area */
+.contact-area{
+    background: #fff;
+    padding: 100px 0;
+    
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.address{
+    width: 25%;
+}
+.address h3{}
+.address ul{}
+.address ul li{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.contact-form{
+    width: 70%;
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+}
+.user-name{}
+.user-mail{}
+.user-msg{}
+.form-submit{}
+
+.footer{
+    background: #000 !important;
+    color: #fff;
+    text-align: center;
+}

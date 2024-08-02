@@ -1,0 +1,37 @@
+@media(max-width:991px){
+    .logo{
+        width: 20%; 
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block ;
+        width: 70%;
+        text-align: right;
+    }
+
+    .servie-item{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .member{
+        width: 48%;
+    }
+    .address, .contact-form{
+        width: 48%;
+    }
+}
+
+@media(max-width: 575px){
+    .servie-item{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .member{
+        width: 100%;
+    }
+    .address, .contact-form{
+        width: 100%;
+    }
+}
